@@ -7,6 +7,8 @@ dist
 **/dist
 build
 **/build
+# Keep pre-built Linux binaries so Dockerfile.local can COPY them in
+!apps/cli/dist/better-ccflare-linux-*
 
 # Development
 .git
